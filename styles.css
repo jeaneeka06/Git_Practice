@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+    background-color: rgb(80, 20, 20)
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center
+}
+
+button {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+.first {
+    color: yellow;
+    text-align: center;
+}
+
+.second {
+    color: green;
+}
+
+#first {
+    color: pink;
+}
+
+.box {
+    border: 2px solid color(black);
+    margin: 40px;
+    padding: 20px;
+    color: azure;
+    background-color: black;
+    font-size: x-large;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    color: blue;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* horizontal */
+    align-items: center;
+    /* vertical (optional) */
+}
